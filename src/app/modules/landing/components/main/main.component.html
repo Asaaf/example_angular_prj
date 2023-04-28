@@ -1,1 +1,4 @@
-<app-cover></app-cover>
+<app-cover (menu)="menuList"></app-cover>
+<div *ngFor="let l of menuList">
+    {{l.title}}
+</div>
