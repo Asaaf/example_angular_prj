@@ -5,13 +5,15 @@ import { LandingRoutingModule } from './landing-routing.module';
 import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
 import { CoverComponent } from './components/cover/cover.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 @NgModule({
   declarations: [
     MainComponent,
     AboutComponent,
-    CoverComponent
+    CoverComponent,
+    MenuComponent
   ],
   imports: [
     CommonModule,
